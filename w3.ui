@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w3</class>
+ <widget class="QWidget" name="w3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>831</width>
+    <height>715</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;平滑处理&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="0">
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>sigma</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBox_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>均值滤波</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>中值滤波</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高斯滤波</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>类型</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>size</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSpinBox" name="spinBox">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="maximum">
+            <number>5</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="spinBox_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="maximum">
+            <number>9</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>重置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>183</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;图像在获取、传输的过程中，可能会受到&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;干扰的影响，会产生噪声，噪声是一种出&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;错了的信号，噪声会造成图像粗糙，需要&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;我们对图像进行平滑处理。图像去噪是一&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;种信号滤波的方法，目的就是为了保留有用的信号。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>183</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w5_1</class>
+ <widget class="QWidget" name="w5_1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>616</width>
+    <height>774</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;图像噪声&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>类型</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>高斯噪声</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>瑞丽噪声 </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>伽马噪声</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>均匀噪声</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>椒盐噪声</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>指数噪声</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+         </property>
+         <property name="text">
+          <string>椒盐密度（%）</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>均值</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="spinBox_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>方差</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="spinBox_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="maximum">
+            <number>100</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>重置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>34</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;图像在生成和传输过程中常常因受到各种&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;噪声的干扰和影响而是图像降质，这对后&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;续图像的处理和图像视觉效应将产生不利&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;影响。利用数学模型可以模拟生成各种噪声。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>33</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

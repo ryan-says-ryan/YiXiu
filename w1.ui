@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w1</class>
+ <widget class="QWidget" name="w1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>953</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;灰度变换&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>类型</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>图像灰度化</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>图像反转</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>图像二值化</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>幂律变换</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>γ值</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="maximum">
+            <double>1.000000000000000</double>
+           </property>
+           <property name="singleStep">
+            <double>0.100000000000000</double>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>c值</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="spinBox">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>1</number>
+           </property>
+           <property name="value">
+            <number>1</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="styleSheet">
+          <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;请选择阈值（0-255）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+         </property>
+         <property name="maximum">
+          <number>255</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="styleSheet">
+          <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+         </property>
+         <property name="text">
+          <string>方法</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_4">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>加权平均法</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>最大值法</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>平均值法</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="graybtn">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>重置</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+       </property>
+       <property name="text">
+        <string>保存</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>63</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;图像的灰度变换处理是图像增强处理技术&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;的一种非常基础的空间域处理方法。灰度&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;变换主要针对独立的像素点进行处理，通&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;过改变原始图像数据所占据的灰度范围而&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;使图像在视觉上得到良好的改变。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>63</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

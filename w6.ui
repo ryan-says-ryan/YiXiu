@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>w6</class>
+ <widget class="QWidget" name="w6">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>711</width>
+    <height>748</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;频率滤波&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="3" column="1">
+          <widget class="QSpinBox" name="spinBox_2">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="comboBox_4">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>低通滤波</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高通滤波</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>带阻滤波</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>带通滤波</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>带宽(m)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBox_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>理想滤波</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>巴特沃斯滤波</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>高斯滤波</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSpinBox" name="spinBox_3">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>半径(r)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>阶数(n)</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>滤波器</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="spinBox">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="styleSheet">
+            <string notr="true">font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+           </property>
+           <property name="text">
+            <string>类型</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>163</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(68, 68, 68);
+font: 15pt &quot;Adobe 黑体 Std R&quot;;
+color: rgb(200, 200, 200);</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;频率域是指从函数的频率角度出发分析函数，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;在频率域分析的时候以频率为横坐标，振幅、&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;纵坐标。一些在空间域表述困难的图像增强&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;任务，在频率域中可以变得简单&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>163</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
